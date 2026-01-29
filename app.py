@@ -202,7 +202,7 @@ def create_word_report(summary_df, template_file):
             for paragraph in cell.paragraphs:
                 for run in paragraph.runs:
                     run.font.size = Pt(9)
-                    run.font.name = '微軟正黑體'
+                    #run.font.name = '微軟正黑體'
 
     # 將檔案保存到記憶體
     output = io.BytesIO()
