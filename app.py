@@ -21,10 +21,10 @@ st.markdown("""
         padding: 2rem;
     }
     .header-title {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 700;
         color: #1e40af;
-        margin-bottom: 0.5rem;
+        m
     }
     .header-subtitle {
         font-size: 1rem;
