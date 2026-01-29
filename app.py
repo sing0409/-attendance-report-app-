@@ -21,10 +21,17 @@ st.markdown("""
         padding: 2rem;
     }
     .header-title {
-        font-size: 2.5rem;
-        font-weight: 700;
-        color: #1e40af;
-        margin-bottom: 0.5rem;
+
+    font-size: 1.8rem; /* 縮小字體防止跨行 */
+    font-weight: 700;
+    color: #1e40af;
+    margin-bottom: 0.5rem;
+    white-space: nowrap; /* 強制不換行 */
+    overflow: hidden;
+    text-overflow: ellipsis; /* 若真的太長則顯示省略號 */
+    line-height: 1.2;
+}
+
     }
     .header-subtitle {
         font-size: 1rem;
